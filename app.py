@@ -495,6 +495,6 @@ def recommend():
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()  # Ensure the database is created
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080)  # Change the port number as needed
 else:
     gunicorn_app = app
