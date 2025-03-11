@@ -61,7 +61,7 @@ SQLAlchemy==2.0.38
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorflow-io-gcs-filesystem==0.31.0
-tensorflow==2.10.0
+tensorflow==2.10.1
 termcolor==2.5.0
 threadpoolctl==3.5.0
 trio==0.29.0
